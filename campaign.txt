@@ -3,16 +3,16 @@ campaign
 cf_id integer PK
 contact_id integer FK >- contacts.contact_id
 company_name varchar(100)
-description varcahr(100)
+description varchar(100)
 goal integer
 pledged integer
-outcome varcahr(15)
+outcome varchar(15)
 backers_count integer
-country varcahr(10)
-currency varcahr(10)
+country varchar(10)
+currency varchar(10)
 launched_date date
 end_date date
-category_id varcahr(10) FK >- category.category_id
+category_id varchar(10) FK >- category.category_id
 subcategory_id varchar(10) FK >- subcategory.subcategory_id
 last_updated timestamp
 
