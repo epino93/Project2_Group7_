@@ -1,0 +1,37 @@
+campaign
+-
+cf_id integer PK
+contact_id integer FK >- contacts.contact_id
+company_name varchar(100)
+description varchar(100)
+goal integer
+pledged integer
+outcome varchar(15)
+backers_count integer
+country varchar(10)
+currency varchar(10)
+launched_date date
+end_date date
+category_id varchar(10) FK >- category.category_id
+subcategory_id varchar(10) FK >- subcategory.subcategory_id
+last_updated timestamp
+
+category
+-
+category_id varchar(5) PK
+category varchar(10)
+last_updated timestamp
+
+subcategory
+-
+subcategory_id varchar(100) PK
+sub-category varchar(100)
+last_updated timestamp
+
+contacts
+-
+first_name varchar(20)
+last_name varchar(20)
+email varchar(100)
+contact_id integer PK
+last-updated timestamp
