@@ -19,7 +19,7 @@ last_updated timestamp
 category
 -
 category_id varchar(5) PK
-category varchar(10)
+category varchar(20)
 last_updated timestamp
 
 subcategory
