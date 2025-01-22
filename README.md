@@ -1,1 +1,3 @@
 # Project2_Group7_
+
+Executive Summary–At the start of Project 2, we uploaded into our repository the two Jupyter Notebooks and four CSV files.  We created our ERD diagram.  We then turned our attention to the PGAdmin work.  From there, we created our engine and connected to our tables.  We then turned our attention to the queries.  Our first query was to see who’s pledged amount was greater than or equal to their goal.  We looked at the total number of campaigns per category.  Then, our next query was to link campaign outcomes to the categories.  We looked at the impact of backer count.  And, we then turned to campaigns by country.  We provided at least nine visualizations.
